@@ -124,7 +124,7 @@ namespace Xs___Os
                 gameOver = true;
                 grid.IsEnabled = false;
 
-                HighlightWin(BuildGridID(row, 0), BuildGridID(row, 1), BuildGridID(0, 2));
+                HighlightWin(BuildGridID(row, 0), BuildGridID(row, 1), BuildGridID(row, 2));
 
             }
 
